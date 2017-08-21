@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, Text, View } from 'react-native';
 
-export const AvatarListItem = () =>
+export const AvatarListItem = () => (
   <View style={styles.avatarItem}>
     <Text style={styles.instructions}>Avatar: Image</Text>
     <Text style={styles.instructions}>Name: Houssein</Text>
-  </View>;
+  </View>
+);
 
 const styles = StyleSheet.create({
   avatarItem: {
@@ -14,11 +15,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
-    backgroundColor: 'gray',
+    backgroundColor: 'gray'
   },
   instructions: {
-    color: 'white',
-  },
+    color: 'white'
+  }
 });
 
 AppRegistry.registerComponent('FreshApp', () => FreshApp);

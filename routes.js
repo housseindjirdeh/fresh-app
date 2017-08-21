@@ -3,7 +3,7 @@ import { StackNavigator, TabNavigator } from 'react-navigation';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import { HomeScreen, HomeDetailsScreen } from 'home';
-import { SettingsScreen } from 'settings';
+import { SettingsScreen } from './src/Settings';
 
 export const HomeStack = StackNavigator({
   Home: {

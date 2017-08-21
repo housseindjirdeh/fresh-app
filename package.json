@@ -10,7 +10,11 @@
 		"react": "16.0.0-alpha.12",
 		"react-native": "0.47.1",
 		"react-native-vector-icons": "^4.3.0",
-		"react-navigation": "^1.0.0-beta.11"
+		"react-navigation": "^1.0.0-beta.11",
+		"react-redux": "^5.0.6",
+		"redux": "^3.7.2",
+		"redux-persist": "^4.8.3",
+		"reselect": "^3.0.1"
 	},
 	"devDependencies": {
 		"babel-eslint": "^7.2.3",
@@ -25,7 +29,8 @@
 		"jest": "20.0.4",
 		"jest-expo": "~19.0.0",
 		"react-native-scripts": "1.1.0",
-		"react-test-renderer": "16.0.0-alpha.12"
+		"react-test-renderer": "16.0.0-alpha.12",
+		"redux-logger": "^3.0.6"
 	},
 	"jest": {
 		"preset": "react-native"
